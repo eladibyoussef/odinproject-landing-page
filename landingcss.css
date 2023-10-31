@@ -69,7 +69,7 @@ h1{
 
 
 }
-p{
+.text-button p{
     font-size: 18px;
     color: #e2e7eb;
 }
@@ -91,4 +91,35 @@ img{
     height: 35px;
     border-radius: 360px;
 }
+b{
+   display: flex;
+   justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 36px ;
+    color: #1f2937;
 
+}
+.info-section,.info-text{
+    display: flex;
+    justify-content: center;
+    gap: 5em;
+    margin-top: 30px;
+}
+.info-section > span{
+    width: 150px;
+    height: 150px ;
+    border: 3px solid #7ca4e4;
+    border-radius: 15px;
+
+}
+.info-text > span{
+    width: 150px;
+    height: 150px ;
+    text-align: center;
+}
+.quote-area{
+    background: #e5e7eb;
+    
+}
