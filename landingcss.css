@@ -1,0 +1,94 @@
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background: #1f2937;
+
+     flex-direction: column;
+     display: flex;
+     gap: 2em;
+
+    }
+#hero-logo{
+    color: #f9faf8;
+    font-size: 24px;
+    margin-top: 0.25em;
+
+}
+.logo-links{
+    display: flex;
+    justify-content: space-around;
+
+
+}
+nav{
+    font-size: 18px;
+    display: flex;
+    color: #f9faf8;
+    justify-content: space-between;
+    gap: 5em;
+}
+.hearder-sections {
+    display: flex;
+}
+.hearder-sections > div{
+     flex-grow: 1;
+     flex-shrink: 0;
+     display: flex;
+     flex-direction: column;
+     gap: 0.1em;
+
+    
+}
+.hearder-sections button{
+    position: relative;
+    background-color: #3882fc;
+    color: #f9faf8;
+    border-radius: 5px;
+    width: 20%;
+    height: 30px;
+    margin-top: 1em;
+    cursor: pointer;
+  
+}
+.text-button{ 
+    padding: 50px 50px 50px 300px;
+
+}
+.image{
+    padding-top: 50px;
+}
+h1{
+    font-weight: bold;
+    font-size: 48px;
+    color: #f9faf8;
+
+
+}
+p{
+    font-size: 18px;
+    color: #e2e7eb;
+}
+#image-place{
+    background: gray;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+img{ 
+    position: absolute;
+    top: 0.25%;
+    left: 15%;
+    width: 35px;
+    height: 35px;
+    border-radius: 360px;
+}
+
