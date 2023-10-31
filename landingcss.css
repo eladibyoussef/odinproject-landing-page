@@ -121,5 +121,20 @@ b{
 }
 .quote-area{
     background: #e5e7eb;
+    text-align: center;
+    padding: 100px;
+}
+.quote-area blockquote{
+    font-size: 36px ;
+    font-style: italic;
+    color: #6c757d;
     
+}
+ #quote-auth{
+    color: #000000;
+    text-align: left;    
+    text-decoration: underline;
+    position: absolute;
+    right: 20%;
+   font-size: 30px;
 }
